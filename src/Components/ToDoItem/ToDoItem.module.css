@@ -1,0 +1,69 @@
+.todoCont {
+    list-style: none;
+    font-size: 20px;
+    margin-left: -10px;
+    width: 585px
+   
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid #AEB8BC 1px;
+    margin-top: 30px; 
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.todoCheck {
+    display: flex;
+    width: 504px;
+    cursor: pointer;
+}
+
+.textCheck {
+    max-width: 450px
+}
+
+.checkbox {
+    display: none;
+}
+
+.fakeCheckbox {
+    height: 20px;
+    width: 20px;
+    border: solid #303a3f 1px;
+    border-radius: 5px;
+    margin-right: 1em;
+    margin-bottom: -10px
+}
+.checkboxCompleted {
+    background: url(./../../img/check.svg) 100% 100% no-repeat;
+    background-size: 19px 21px;
+}
+
+.deleteTodo {
+    margin-left: 1em;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    background-color: #DA7B7B;
+    color: #fafafa;
+    border-radius: 5px;
+    border: none;
+    margin-top: -8px;
+    cursor: pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+}
+.deleteTodo:hover {
+    background-color: #ad5b5b;
+}
+.delete:active {
+    background-color: #ee8d8d;
+}

@@ -1,0 +1,27 @@
+* {
+  background-color: #fafafa;
+  color: #303a3f;
+  font-style: Helvetica;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%);
+}
+
+.title { 
+  text-align: center;
+}
+
+.inputTodos {
+  width: 608px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 5px;
+  color: #3f4c53;
+  border-color: #303a3f;
+  outline: none;
+}
